@@ -19,18 +19,21 @@
         height: 150px;
       }
       #mainContent {
-        width: 100%;
+        float: right;
+        width: 800px;
         height: 100%;
       }
-      #topCenter{
+      .center{
         text-align: center;
       }
       .rightSide{
         float: right;
       }
       #mainNav{
-        width: 1000px;
-        height:50px;
+        position: fixed;
+        float: left;
+        width: 200px;
+        height:100%;
       }
       a:link {
 	      text-decoration: none;
@@ -44,10 +47,7 @@
 	      text-decoration: underline;
         color: #49714c;
       }
-      a:active {
-	      text-decoration: none;
-        color: #584497;
-      }
+
     </style>
     <title>
       Obligatory title for validation. Javascript replaces this.
@@ -73,21 +73,24 @@
     </script>
   </head>
   <body>
-    <!-- Container Start -->
     <div id="container">
-      <!-- Header Start -->
       <div id="header">
         <img src="images/header.jpg" width="1000" height="150" alt="Header: Steven's Coffee Website"/>
       </div>
       <div id="mainNav">
-        
+        <ul style="list-style-type:none">
+          <li><a href="#home">Top of Page</a></li>
+          <li><a href="#culture">Coffee Culture</a></li>
+          <li><a href="#types">Types of Coffee Beverages</a></li>
       </div>
-      <!-- Main Content Start -->
       <div id="mainContent">
-        <h1 id="topCenter">Coffee is amazing!</h1>
+        <a name="home"><h1 class="center">Coffee is amazing!</h1></a>
         <img src="images/happyCoffee.gif" alt="Coffee with a smile in the bubbles" width="200" height="176" class="rightSide" />
-        <p>Coffee is one of the most traded commodities on the planet Earth.
-         Second only to petrolium it is drank by millions per day, and has many positive effects.</p>
+        <p>Coffee is one of the most traded commodities on the planet Earth,
+         second only to petrolium. It is drank by millions per day, and has a
+          vast culture, historical importance, and health benefits, too!</p>
+        <a name="culture"><h2 class="center">Coffee Culture</h2></a>
+        <a name="types"><h3 class="center">Common Types of Coffee Beverage</h3></a>
       </div>
     </div>
   </body>
