@@ -1,14 +1,14 @@
-<!DOCTYPE html />
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <style>
       body{
-        background-image: url("Background.png");
+        background-image: url("images/background.png");
         background-repeat: repeat-x;
         background-color: #FFFFCC;
       }
       #container {
-        background-image: url("Background.png");
+        background-image: url("images/background.png");
         background-repeat: repeat-x;
         background-color: #FFFFCC;
         width: 1000px;
@@ -18,13 +18,23 @@
         width: 100%;
         height: 150px;
       }
-      #main_content {
+      #mainContent {
         width: 100%;
         height: 100%;
       }
+      #topCenter{
+        text-align: center;
+      }
+      .rightSide{
+        float: right;
+      }
     </style>
-    <meta charset="utf-8" />
-    <script language="JavaScript">
+    <title>
+      Obligatory title for validation. Javascript replaces this.
+    </title>
+    <meta charset="utf-8">
+    <meta name="author" content="Carter, Steven">
+    <script>
       <!--
         var space1 = " ";
         var space2 = "|"
@@ -43,13 +53,18 @@
     </script>
   </head>
   <body>
+    <!-- Container Start -->
     <div id="container">
+      <!-- Header Start -->
       <div id="header">
-        <img src="header.jpg" width="1000px" height="150px" />
+        <img src="images/header.jpg" width="1000" height="150" alt="Header: Steven's Coffee Website"/>
       </div>
-      <div id="main_content">
-        <p>Coffee is one of the most traded commodities traded on the planet Earth.
-         Second only to petrolium it is drank by millions per day, and has many positive effects.
+      <!-- Main Content Start -->
+      <div id="mainContent">
+        <h1 id="topCenter">Coffee is amazing!</h1>
+        <img src="images/happyCoffee.gif" alt="Coffee with a smile in the bubbles" width="200" height="176" class="rightSide" />
+        <p>Coffee is one of the most traded commodities on the planet Earth.
+         Second only to petrolium it is drank by millions per day, and has many positive effects.</p>
       </div>
     </div>
   </body>
