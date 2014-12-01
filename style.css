@@ -1,0 +1,45 @@
+body{
+  background-image: url("images/background.png");
+  background-repeat: repeat-x;
+  background-color: #FFFFCC;
+}
+#container {
+  background-image: url("images/background.png");
+  background-repeat: repeat-x;
+  background-color: #FFFFCC;
+  width: 1000px;
+  margin: auto;
+}
+#header {
+  width: 100%;
+  height: 150px;
+}
+#mainContent {
+  float: right;
+  width: 800px;
+  height: 100%;
+}
+.center{
+  text-align: center;
+}
+.rightSide{
+  float: right;
+}
+#mainNav{
+  position: fixed;
+  float: left;
+  width: 200px;
+  height:100%;
+}
+a:link {
+  text-decoration: none;
+  color: #584497;
+}
+a:visited {
+  text-decoration: none;
+  color: #6d58b0;
+}
+a:hover {
+  text-decoration: underline;
+  color: #49714c;
+}
