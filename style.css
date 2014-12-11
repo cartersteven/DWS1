@@ -3,6 +3,16 @@ body{
   background-repeat: repeat-x;
   background-color: #FFFFCC;
 }
+h6, h5, h4, h3, h2, h1{
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 1px 1px #cccccc;
+
+}
+p{
+font-family: 'Droid Serif', serif;
+font-size: 1.0em;
+font-weight: 400;
+}
 #container {
   background-image: url("images/background.png");
   background-repeat: repeat-x;
@@ -26,6 +36,10 @@ body{
   float: right;
 }
 #mainNav{
+  border-radius: 8px;
+  box-shadow: 3px;
+  border: 1px;
+  border-color: rgba(0,0,0,0.7);
   position: fixed;
   background-color: rgba(0,0,0,0.1);
   float: left;
@@ -42,6 +56,10 @@ a:visited {
 a:hover {
   text-decoration: underline;
   color: #49714c;
+}
+a:active{
+  text-decoration: none;
+  color: #8a79bf;
 }
 .macchiatos{
   float: right;
