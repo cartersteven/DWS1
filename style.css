@@ -30,6 +30,17 @@ a:active{
   text-decoration: none;
   color: #8a79bf;
 }
+/*Class Rules*/
+.center{
+  text-align: center;
+}
+.rightSide{
+  float: right;
+}
+.macchiatos{
+  float: right;
+}
+/*ID Rules*/
 #container {
   background-image: url("images/background.png");
   background-repeat: repeat-x;
@@ -45,15 +56,6 @@ a:active{
   float: right;
   width: 800px;
   height: 100%;
-}
-.center{
-  text-align: center;
-}
-.rightSide{
-  float: right;
-}
-.macchiatos{
-  float: right;
 }
 #container {
   background-image: url("images/background.png");
