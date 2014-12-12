@@ -1,3 +1,4 @@
+/*Plain Elementary Rules*/
 body{
   background-image: url("images/background.png");
   background-repeat: repeat-x;
@@ -12,6 +13,22 @@ p{
 font-family: 'Droid Serif', serif;
 font-size: 1.0em;
 font-weight: 400;
+}
+a:link {
+  text-decoration: none;
+  color: #584497;
+}
+a:visited {
+  text-decoration: none;
+  color: #6d58b0;
+}
+a:hover {
+  text-decoration: underline;
+  color: #49714c;
+}
+a:active{
+  text-decoration: none;
+  color: #8a79bf;
 }
 #container {
   background-image: url("images/background.png");
@@ -35,6 +52,25 @@ font-weight: 400;
 .rightSide{
   float: right;
 }
+.macchiatos{
+  float: right;
+}
+#container {
+  background-image: url("images/background.png");
+  background-repeat: repeat-x;
+  background-color: #FFFFCC;
+  width: 1000px;
+  margin: auto;
+}
+#header {
+  width: 100%;
+  height: 150px;
+}
+#mainContent {
+  float: right;
+  width: 800px;
+  height: 100%;
+}
 #mainNav{
   border-radius: 8px;
   box-shadow: 3px;
@@ -44,23 +80,4 @@ font-weight: 400;
   background-color: rgba(0,0,0,0.1);
   float: left;
   width: 200px;
-}
-a:link {
-  text-decoration: none;
-  color: #584497;
-}
-a:visited {
-  text-decoration: none;
-  color: #6d58b0;
-}
-a:hover {
-  text-decoration: underline;
-  color: #49714c;
-}
-a:active{
-  text-decoration: none;
-  color: #8a79bf;
-}
-.macchiatos{
-  float: right;
 }
