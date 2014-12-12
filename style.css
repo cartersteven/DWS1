@@ -54,14 +54,13 @@ td{
 }
 #header {
   margin: auto;
-  width: 100;
+  width: 100%;
 }
 #mainContent {
   float: right;
   width: 78%;
   height: 100%;
   border-radius: 8px;
-  box-shadow: 3px;
   border: 1px;
   border-color: rgba(0,0,0,0.7);
   background-color: rgba(0,0,0,0.1);
@@ -69,7 +68,6 @@ td{
 }
 #mainNav{
   border-radius: 8px;
-  box-shadow: 3px;
   border: 1px;
   border-color: rgba(0,0,0,0.7);
   position: fixed;
