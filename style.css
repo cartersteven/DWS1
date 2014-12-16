@@ -34,6 +34,15 @@ a:active{
 td{
   width:28%
 }
+nav{
+  margin: auto;
+  width: 98%;
+  border-radius: 8px;
+  border: 1px;
+  border-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.1);
+  margin: 1%;
+}
 /*Class Rules*/
 .center{
   text-align: center;
@@ -66,7 +75,12 @@ header {
   background-color: rgba(0,0,0,0.1);
   margin: 1%;
 }
-nav{
+#nav li{
+  margin: auto;
+  list-style-type: none;
+  display: inline;
+}
+aside{
   border-radius: 8px;
   border: 1px;
   border-color: rgba(0,0,0,0.7);
