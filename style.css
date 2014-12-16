@@ -34,15 +34,16 @@ a:active{
 td{
   width:28%
 }
-nav{
-  margin: auto;
-  width: 98%;
-  border-radius: 8px;
-  border: 1px;
-  border-color: rgba(0,0,0,0.7);
-  background-color: rgba(0,0,0,0.1);
-  margin: 1%;
+nav ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
 }
+
+nav ul li { display: inline; }
+
 /*Class Rules*/
 .center{
   text-align: center;
@@ -74,11 +75,6 @@ header {
   border-color: rgba(0,0,0,0.7);
   background-color: rgba(0,0,0,0.1);
   margin: 1%;
-}
-#nav li{
-  margin: auto;
-  list-style-type: none;
-  display: inline;
 }
 aside{
   border-radius: 8px;
