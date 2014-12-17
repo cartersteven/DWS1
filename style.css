@@ -48,8 +48,9 @@ nav ul li { display: inline; }
 .center{
   text-align: center;
 }
-.rightSide{
+.right{
   float: right;
+  clear:both;
 }
 .macchiatos{
   float: right;
@@ -66,7 +67,7 @@ header {
   margin: auto;
   width: 100%;
 }
-#mainContent {
+article {
   float: right;
   width: 78%;
   height: 100%;
