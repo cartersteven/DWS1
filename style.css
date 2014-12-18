@@ -47,8 +47,9 @@ header {
   width: 100%;
 }
 article {
+  padding: 2%;
   float: right;
-  width: 78%;
+  width: 74%;
   height: 100%;
   border-radius: 8px;
   border: 1px;
@@ -57,13 +58,14 @@ article {
   margin: 1%;
 }
 aside{
+  padding: 2%;
   border-radius: 8px;
   border: 1px;
   border-color: rgba(0,0,0,0.7);
   position: fixed;
   background-color: rgba(0,0,0,0.1);
   float: left;
-  width: 18%;
+  width: 14%;
   margin: 1%;
 }
 footer{
