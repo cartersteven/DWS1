@@ -136,17 +136,30 @@
         <form>
           <div>
             <label for="name">Name: </label>
-            <input name="Name" type="text"  id="name" value="Name" maxlength="30" required="required">
+            <input name="Name" type="text"  id="name" value="Name" maxlength="30" required>
           </div>
           <div>
-            <label for="comment">Leave a comment here: </label><textarea name="Comments" cols="50" rows="5" wrap="virtual" value="Leave a comment" id="comment"></textarea>
+            <label for="comment">Leave a comment here: </label><textarea name="Comments" cols="50" rows="5" wrap="virtual" value="Leave a comment" id="comment" required></textarea>
           </div>
           <div>
             <label for="hear">How did you hear about us?</label>
+
           </div>
-          <div>
-            <input name="submit" type="submit" value="submit">
-          </div>
+          <label>
+            <input type="radio" name="Hear" value="tv" id="Hear_0">
+            Television</label>
+            <br>
+            <label>
+              <input type="radio" name="Hear" value="radio" id="Hear_1">
+              Radio</label>
+              <br>
+              <label>
+                <input type="radio" name="Hear" value="grading" id="Hear_2">
+                You're Grading This</label>
+                <br>
+                <div>
+                  <input name="submit" type="submit" value="submit">
+                </div>
         </form>
       </article>
       </div>
