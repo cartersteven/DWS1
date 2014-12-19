@@ -1,178 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Roboto:100' rel='stylesheet' type='text/css'>
-    <title>
-      Obligatory title for validation. Javascript replaces this.
-    </title>
-    <meta charset="utf-8">
-    <meta name="author" content="Carter, Steven">
-    <script>
-      <!--
-        var space1 = " ";
-        var space2 = "|"
-        var speed = "200";
-        var pos = 0;
-        var msg = "Steven's Coffee Website";
-        function Scroll()
-        {
-          document.title = msg.substring(pos, msg.length) + space1 + space2 + space1 + msg.substring(0,pos);
-          pos++;
-          if (pos > msg.length) pos = 0;
-          window.setTimeout("Scroll()", speed);
-        }
-        Scroll();
-      -->
-    </script>
-  </head>
-  <body>
-    <div id="container">
-      <header>
-        <a name="home"><img src="images/header.jpg" width="100%"  alt="Header: Steven's Coffee Website"/></a>
-      </header>
-      <nav>
-        <h3 class="center">Navigation<h3>
-        <ul>
-          <li><a href="#home">Top of Page</a></li>
-          <li>|</li>
-          <li><a href="#culture">Coffee Culture</a></li>
-          <li>|</li>
-          <li><a href="#types">Types of Coffee Beverages</a></li>
-          <li>|</li>
-          <li><a href="#benefits">Benefits of Drinking Coffee</a></li>
-          <li>|</li>
-          <li><a href="#table">Coffee by Different Methods</a></li>
-        </ul>
-      </nav>
-      <aside>
-        <h1>Side Content</h1>
-      </aside>
-        <article><h1 class="center">Coffee is amazing!</h1>
-          <p>Coffee is one of the most traded commodities on the planet Earth, second only to petrolium. It is drank by millions per day, and has a vast culture, historical importance, and health benefits, too!</p>
-        </article>
-        <article><a name="culture"><h2 class="center">Coffee Culture</h2></a>
-        <img src="images/happyCoffee.gif" alt="Coffee with a smile in the bubbles" width="200" height="176" class="right" />
-        <p>In the United States, one can define coffee culture along many different aspects. One popular aspect is along the line between Starbucks and the non-Starbucks coffeehouses. This is because of a <em>fundamental</em> fissure in ideology. The non-Starbucks coffeehouses want to pull the purfect shot of espresso, and serve it in a manner that showcases the flavor of the beans and the expertise of the barista. Starbucks differs here because the recepies that their baristas follow are designed to be sweet and cover up the flavor of the beans. This is important because when a bean is grown and subsequently roasted, the flavor of the region is locked inside thebean, waiting to come out. And each regin has a different story to tell.</p>
-          <p>Next I will talk about some commonly ordered types of beverages.</p>
-        </article>
-        <article><a name="types"><h3 class="center">Common Types of Coffee Beverage</h3></a>
-        <table>
-          <tr>
-            <td>
-              <ul style="list-style-image: url('images/coffeeIconColor.gif');">
-                <li>Espresso</li>
-                <li>Latte</li>
-                <li>Cappuccino</li>
-                <li>Frappuccino</li>
-                <li>Red Eye</li>
-                <li>Cafe Macchiato</li>
-                <li>Latte <q>Macchiato</q></li>
-                <li>Americano</li>
-              </ul>
-            </td>
-            <td>
-              <figure>
-                <img src="images/CafeMacchiatoSmall.png" alt="Cafe Macchaito" width="200" height="267">
-                <figcaption>Fig1. - A Cafe macchiato.<br />As made by most coffeeshops.<br />Ordered as a Macchiato.</figcaption>
-              </figure>
-            </td>
-            <td>
-              <figure>
-                <img src="images/LatteMacchiatoSmall.png" alt="Latte Macchiato" width="200" height="267">
-                <figcaption>Fig2. - A Latte macchiato.<br />Similar to those made by Starbucks.<br />Ordered as a Macchiato.</figcaption>
-              </figure>
-            </td>
-          </tr>
-        </table>
-      </article>
-        <article>
-        <a name="benefits"><h2 class="center">
-          Health Benefits of Coffee
-        </h2></a>
-        <ol>
-          <li>Caffeine facilitates higher focus in humans.</li>
-          <li>May help stabilize parkinsons disease.</li>
-          <li>May help prevent heart disease.</li>
-          <li>Facilitates more robust memory in humans.</li>
-        </ol>
-      </article>
-      <article>
-        <a name="table"><h2 class="center">Coffee by different Methods</h2></a>
-        <table id="methods">
-          <tr>
-            <th><br /></th>
-            <th>Number of cups</th>
-            <th>Fineness of grind</th>
-            <th>Margin for error</th>
-          </tr>
-          <tr>
-            <th>Espresso</th>
-            <td>1-2*</td>
-            <td>Very Fine</td>
-            <td>Low</td>
-          </tr>
-          <tr>
-            <th>French Press</th>
-            <td>1-12</td>
-            <td>Very Course</td>
-            <td>Low</td>
-          <tr>
-            <th>Pour Over</th>
-            <td>1</td>
-            <td>Medium</td>
-            <td>Medium</td>
-          <tr>
-            <th>Vacuum Pot</th>
-            <td>6-12</td>
-            <td>Course</td>
-            <td>Low</td>
-          </tr>
-          </tr>
-        </table>
-      </article>
-      <article>
-        <h2 class="center"><a name="contact">Contact Me</a></h2>
-        <form>
-          <div id="labels">
-            <label for="name">Name: </label>
-            <label for="comment">Leave a comment here: </label><textarea name="Comments" cols="50" rows="5" wrap="virtual" value="Leave a comment" id="comment" required></textarea>
-            <label for="hear">How did you hear about us?</label>
-            <label for="age">Select your age: </label>
-          </div>
-          <div id="formElements">
-            <input name="Name" type="text"  id="name" value="Name" maxlength="30" required>
-            <label>
-              <input type="radio" name="Hear" value="tv" id="Hear_0">
-              Television</label>
-              <br>
-              <label>
-                <input type="radio" name="Hear" value="radio" id="Hear_1">
-                Radio</label>
-                <br>
-                <label>
-                  <input type="radio" name="Hear" value="grading" id="Hear_2" checked="checked">
-                  You're Grading This</label>
-                  <br>
-                  <select name="Age" id="age">
-                    <option value="&lt;18">Less Than 18</option>
-                    <option value="18-25">18-25</option>
-                    <option value="25-32">25-32</option>
-                    <option value="33-40">33-40</option>
-                    <option value="40-45">40-45</option>
-                    <option value="45-52">45-52</option>
-                    <option value="53-60">53-60</option>
-                    <option value="60+">60+</option>
-                  </select>
-                  <input name="submit" type="submit" value="submit">
-          </div>
+@@ -144,19 +144,32 @@
+<div>
+  <label for="hear">How did you hear about us?</label><br />
 
-                </div>
-        </form>
-      </article>
+  <label>
+    <input type="radio" name="Hear" value="tv" id="Hear_0">
+    Television</label>
+    <br>
+    <label>
+      <input type="radio" name="Hear" value="radio" id="Hear_1">
+      Radio</label>
+      <input type="radio" name="Hear" value="tv" id="Hear_0">
+      Television</label>
+      <br>
+      <label>
+        <input type="radio" name="Hear" value="grading" id="Hear_2" checked="checked">
+        You're Grading This</label>
+        <input type="radio" name="Hear" value="radio" id="Hear_1">
+        Radio</label>
+        <br>
       </div>
-      <footer>
-        <p>&copy;2014 Steven Carter</p>
-      </footer>
-  </body>
-</html>
+      <label>
+        <input type="radio" name="Hear" value="grading" id="Hear_2" checked="checked">
+        You're Grading This</label>
+        <br>
+      </div>
+      <div>
+        <label for="age">Select your age: </label>
+        <select name="Age" id="age">
+          <option value="&lt;18">Less Than 18</option>
+          <option value="18-25">18-25</option>
+          <option value="25-32">25-32</option>
+          <option value="33-40">33-40</option>
+          <option value="40-45">40-45</option>
+          <option value="45-52">45-52</option>
+          <option value="53-60">53-60</option>
+          <option value="60+">60+</option>
+        </select>
+      </div>
+      <div>
+        <input name="submit" type="submit" value="submit">
+      </div>
