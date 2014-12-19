@@ -77,6 +77,11 @@ footer{
   border-color: rgba(0,0,0,0.7);
   background-color: rgba(0,0,0,0.1);
 }
+form div{
+  padding: 1%;
+  border: 1px, 0px;
+  text-align:right;
+}
 /*Class Rules*/
 .center{
   text-align: center;
