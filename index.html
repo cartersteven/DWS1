@@ -134,16 +134,14 @@
       <article>
         <h2 class="center"><a name="contact">Contact Me</a></h2>
         <form>
-          <div>
+          <div id="labels">
             <label for="name">Name: </label>
-            <input name="Name" type="text"  id="name" value="Name" maxlength="30" required>
-          </div>
-          <div>
             <label for="comment">Leave a comment here: </label><textarea name="Comments" cols="50" rows="5" wrap="virtual" value="Leave a comment" id="comment" required></textarea>
+            <label for="hear">How did you hear about us?</label>
+            <label for="age">Select your age: </label>
           </div>
-          <div>
-            <label for="hear">How did you hear about us?</label><br />
-
+          <div id="formElements">
+            <input name="Name" type="text"  id="name" value="Name" maxlength="30" required>
             <label>
               <input type="radio" name="Hear" value="tv" id="Hear_0">
               Television</label>
@@ -156,9 +154,6 @@
                   <input type="radio" name="Hear" value="grading" id="Hear_2" checked="checked">
                   You're Grading This</label>
                   <br>
-                </div>
-                <div>
-                  <label for="age">Select your age: </label>
                   <select name="Age" id="age">
                     <option value="&lt;18">Less Than 18</option>
                     <option value="18-25">18-25</option>
@@ -169,9 +164,9 @@
                     <option value="53-60">53-60</option>
                     <option value="60+">60+</option>
                   </select>
-                </div>
-                <div>
                   <input name="submit" type="submit" value="submit">
+          </div>
+
                 </div>
         </form>
       </article>
