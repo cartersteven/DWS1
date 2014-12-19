@@ -108,7 +108,6 @@ footer{
   z-index: -1;
   background-repeat: no-repeat;
 }
-#methods{}
 #methods th{
   padding: 2%;
   border-radius: 8px;
@@ -133,4 +132,3 @@ footer{
   background-color: rgba(0,0,0,0.3);
   text-align: center;
 }
-#methods
