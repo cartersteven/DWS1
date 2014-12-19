@@ -108,3 +108,29 @@ footer{
   z-index: -1;
   background-repeat: no-repeat;
 }
+#methods{}
+#methods th{
+  padding: 2%;
+  border-radius: 8px;
+  border: 1px;
+  border-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.1);
+  text-align: center;
+}
+#methods td{
+  padding: 2%;
+  border-radius: 8px;
+  border: 1px;
+  border-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.1);
+  text-align: center;
+}
+#methods tr:hover{
+  padding: 2%;
+  border-radius: 8px;
+  border: 1px;
+  border-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.3);
+  text-align: center;
+}
+#methods
